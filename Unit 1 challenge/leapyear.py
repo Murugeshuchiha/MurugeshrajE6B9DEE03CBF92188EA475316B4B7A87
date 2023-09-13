@@ -1,5 +1,5 @@
 # To find the Leap year
-y = 2000
+y = int(input("Enter the Year"))
 if (y % 4 == 0):
   print("{} is Leap Year".format(y))
 else:
